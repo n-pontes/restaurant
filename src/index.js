@@ -56,4 +56,8 @@ export const home = () => {
     menuButton.appendChild(menuButtonText);
     indexPage.appendChild(menuButton);
 
+    // Add the reusable footer
+    const footer = createFooter();
+    document.body.appendChild(footer);
+
 };
