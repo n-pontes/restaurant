@@ -60,4 +60,9 @@ export const home = () => {
     const footer = createFooter();
     document.body.appendChild(footer);
 
+    // Add button that redirects to the menu tab
+    menuButton.addEventListener('click', () => {
+        menu();
+    });
+
 };
