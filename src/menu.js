@@ -49,6 +49,13 @@ const menu = () => {
         { name: 'Seafood Paella', price: '€25.85', description: 'A classic Spanish dish with saffron-infused rice, shrimp, mussels, clams, and chorizo.' },
         { name: 'Lobster Thermidor', price: '€34.99', description: 'Lobster meat baked in a creamy brandy sauce, topped with cheese and served in the shell.' },
         { name: 'Seared Scallops', price: '€15.99', description: 'Pan-seared scallops over truffle mashed potatoes, finished with a citrus beurre blanc.' },
+        { name: 'Garlic Butter Lobster Tail', price: '€18.99', description: 'Succulent lobster tail broiled in garlic herb butter, served with lemon asparagus.' },
+        { name: 'Grilled Octopus', price: '€16.50', description: 'Char-grilled Mediterranean octopus on a bed of smoky paprika chickpea purée.' },
+        { name: 'Blackened Swordfish Steak', price: '€17.75', description: 'Cajun-seasoned swordfish seared and served with charred corn salsa and lime aioli.' },
+        { name: 'Chili-Lime Shrimp Skewers', price: '€14.90', description: 'Grilled shrimp marinated in chili-lime glaze, served over cilantro jasmine rice.' },
+        { name: 'Miso Glazed Cod', price: '€16.80', description: 'Delicate Atlantic cod in a sweet miso glaze with pickled daikon and seaweed salad.' },
+        { name: 'Stuffed Calamari', price: '€15.60', description: 'Tender calamari tubes stuffed with herbed ricotta and sun-dried tomatoes, baked in a tomato white wine sauce.' },
+        { name: 'Crab & Avocado Tartare', price: '€14.25', description: 'Blue crab tossed in citrus dressing, layered with avocado and mango salsa, served chilled.' }
     ];
 
     menuItems.forEach((item) => {
