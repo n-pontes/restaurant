@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Centralwell;
+    src: url('./fonts/Centralwell.woff');
+}
+@font-face {
+    font-family: SourceSans3-Bold;
+    src: url('./fonts/SourceSans3-Bold.woff');
+}
+@font-face {
+    font-family: 'SourceSans3-Bold-Italic';
+    src: url('./fonts/SourceSans3-BoldItalic.woff');
+}
+@font-face {
+    font-family: SourceSans3-Extra-Light;
+    src: url('./fonts/SourceSans3-ExtraLight.woff');
+}
+@font-face {
+    font-family: SourceSans3-Medium;
+    src: url('./fonts/SourceSans3-Medium.woff');
+}
+@font-face {
+    font-family: Themunday;
+    src: url('./fonts/Themundayfreeversion-Regular.woff');
+}
+@font-face {
+    font-family: Antonio;
+    src: url('./fonts//Antonio-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    background: url('images/back.jpg') no-repeat center center/cover;
+    /* backdrop-filter: blur(3px); */
+    display: flex; /* Add flexbox to body */
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Take full viewport height */
+    font-family: 'SourceSans3-Medium', sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 30px;
+    height: 100px;
+    border-bottom: 2px solid #dba24b;
+}
+button {
+    font-family: 'Antonio', sans-serif;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+}
+button:hover {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #dba24b;
+    
+}
+.index-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 580px;
+    padding: 35px;
+}
+.welcome {
+    font-family: 'Centralwell', sans-serif;
+    color: #dba24b;
+    margin-bottom: -88px;
+    font-size: 7rem;
+    /* font-weight: 500; */
+}
+.title {
+    font-size: 5.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'SourceSans3-Bold', sans-serif;
+    letter-spacing: -4px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin: 0px 0;
+    line-height: 1.5rem;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+}
+.line {
+    width: 300px;
+    height: 3px;
+    background: #dba24b;
+    margin: 10px auto;
+}
+.menu-small {
+    font-size: 1rem;
+    background-color: #dba24b;
+    color: #2e2e2e;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-family: 'Antonio', sans-serif;
+}
+.menu-small:hover {
+    color: white;
+}
+footer {
+    margin-top: auto;
+    padding: 20px; 
+    border-top: 2px solid #dba24b;
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+.menu-page {
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    padding: 35px;
+    background-color: rgb(240, 240, 240);
+    overflow: scroll;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* Scrollbar width */
+.menu-page::-webkit-scrollbar {
+    width: 15px; /* Adjust width as needed */
+}
+
+/* Scrollbar track (background) */
+.menu-page::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray */
+    border-radius: 10px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+.menu-page::-webkit-scrollbar-thumb {
+    background: #dba24b; /* Darker gray */
+}
+
+/* Scrollbar thumb on hover */
+.menu-page::-webkit-scrollbar-thumb:hover {
+    background: #f1bf73; /* Even darker gray */
+}
+
+.menu-page > .welcome {
+    font-size: 5rem;
+    margin-bottom: -35px;
+    color: #dba24b;
+    font-weight: 600;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-page > .title {
+    color: rgb(46, 46, 46);
+    font-size: 4rem !important;
+}
+.menu-page > .line {
+    width: 250px;
+    height: 4px;
+    background: #c99f46;
+}
+.item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Prevents it from becoming too wide */
+    margin: 0 auto; /* Centers it */
+}
+.item > h1 {
+    color: #c99f46;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+.item > p {
+    color: #4e4e4e;
+}
+.item {
+    line-height: 1.5rem;
+}
+.item-container > .line {
+    width: 250px;
+    height: 2px;
+    background: #dba24b;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #c99f46;
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.gps {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    image-rendering: -webkit-optimize-contrast;
+}   
