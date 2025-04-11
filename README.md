@@ -20,6 +20,7 @@ A fictional restaurant SPA built for The Odin Project curriculum, focusing on mo
 # Screenshots
 ![Home Tab](./src/images/ScreenshotA.png)
 ![Home Tab](./src/images/ScreenshotB.png)
+<img src="https://your-image-url.type" width="358">
 
 ## Built With
 ### Technologies
