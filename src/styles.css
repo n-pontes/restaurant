@@ -32,6 +32,11 @@
     box-sizing: border-box;
     text-align: center;
 }
+
+html, body {
+    height: 100%; /* Restrict height to the viewport */
+    overflow: hidden; /* Prevent global scrolling */
+}
 body {
     background: url('images/back.jpg') no-repeat center center/cover;
     /* backdrop-filter: blur(3px); */
