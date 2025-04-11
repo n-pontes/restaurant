@@ -17,6 +17,8 @@ A fictional restaurant SPA built for The Odin Project curriculum, focusing on mo
 
 # Live Demo
 
+# Screenshots
+
 ## Built With
 ### Technologies
 + HTML5
