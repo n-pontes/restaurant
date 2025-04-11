@@ -82,7 +82,7 @@ button:hover {
 .welcome {
     font-family: 'MSaint', sans-serif;
     color: #dba24b;
-    margin-bottom: -88px;
+    margin-bottom: -115px;
     font-size: 7rem;
     /* font-weight: 500; */
 }
@@ -161,7 +161,7 @@ footer {
 
 .menu-page > .welcome {
     font-size: 5rem;
-    margin-bottom: -35px;
+    margin-bottom: -75px;
     color: #dba24b;
     font-weight: 600;
 }
