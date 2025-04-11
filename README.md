@@ -16,11 +16,8 @@ A fictional restaurant SPA built for The Odin Project curriculum, focusing on mo
 + Strengthened problem-solving skills through debugging and optimizing navigation
 
 # Live Demo
-
-# Screenshots
-![Home Tab](./src/images/ScreenshotA.png)
 ![Home Tab](./src/images/ScreenshotB.png)
-<img src="https://your-image-url.type" width="158">
+<img src="./src/images/ScreenshotA.png" width="358">
 
 ## Built With
 ### Technologies
