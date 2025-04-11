@@ -64,5 +64,10 @@ export const home = () => {
     menuButton.addEventListener('click', () => {
         menu();
     });
-
 };
+
+// Start the function home
+home();
+// menu();
+// about();
+// contact();
