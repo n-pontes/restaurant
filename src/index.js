@@ -1,5 +1,13 @@
-// Create the home function
+// Imports all the dependency files to run the function home
 
+import "./styles.css";
+import { createNavBar } from './navbar.js';
+import { createFooter } from './footer.js';
+import { menu } from './menu.js';
+import { about } from './about.js';
+import { contact } from './contact.js';
+
+// Create the home function
 export const home = () => {
 
     // Clear the body to create a fresh page structure
