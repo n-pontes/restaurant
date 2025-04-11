@@ -78,3 +78,5 @@ const menu = () => {
    const footer = createFooter();
    document.body.appendChild(footer);
 };
+
+export { menu };
