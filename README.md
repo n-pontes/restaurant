@@ -16,6 +16,8 @@ A fictional restaurant SPA built for The Odin Project curriculum, focusing on mo
 + Strengthened problem-solving skills through debugging and optimizing navigation
 
 # Live Demo
+https://n-pontes.github.io/restaurant/
+# Screenshots
 <img src="./src/images/ScreenshotA.png" width="758">
 <img src="./src/images/ScreenshotB.png" width="758">
 
