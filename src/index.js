@@ -4,8 +4,6 @@ import "./styles.css";
 import { createNavBar } from './navbar.js';
 import { createFooter } from './footer.js';
 import { menu } from './menu.js';
-import { about } from './about.js';
-import { contact } from './contact.js';
 
 // Create the home function
 export const home = () => {
